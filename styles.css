@@ -1,0 +1,130 @@
+
+#startContainer {
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    padding-top: height/2;
+    padding-left: width/2;
+    display:flex;
+    /*background-color: yellow;*/
+}
+
+#start {
+    height : 80px;
+    width : 40%;
+    text-align: center;
+    justify-content: center;
+}
+#topic {
+    height: 10vh;
+    width: 100%;
+}
+#startContainer {
+    background-image: url(quiz1.png);
+    background-size: 10%;
+}
+#first {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+}
+#second {
+    width: 100%;
+    height: 75vh;
+}
+#third {
+    width: 100%;
+    height: 10vh;
+}
+#time {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+}
+#score {
+    bottom:0;
+    right:0;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+}
+#user-score {
+    color: #ef9614;
+}
+#total-score {
+    color: #f64904
+}
+.btn {
+    font-weight: bold;
+    box-shadow: 0 6px 12px -2px rgba(#f27813,.15);
+}
+.hide {
+    display:none;
+}
+#a,#b,#c,#d {
+    height: 25px;
+    width: 80px;
+    font-size: 20px;
+}
+#a:hover {
+    color: white;
+}
+#b:hover {
+    color: white;
+}
+#c:hover {
+    color: white;
+}
+#d:hover {
+    color: white;
+}
+.whiteToggle {
+    color: yellow;
+}
+#first {
+    visibility: hidden;
+}
+#second {
+    display:grid;
+    grid-template-rows: 3fr 9fr;
+    visibility:hidden;
+    background: url(img1.png) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    /*display:none;*/
+}
+#options {
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+#grp-1,#grp-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 300px;
+}
+.design {
+    color:red;
+    font-size: 25px;
+    margin-top: 15px;
+}
+#question {
+    font-weight: bolder;
+    font-size: 30px;
+}
+#nxt,#prev {
+    visibility: hidden;
+}
+/*#b {
+    box-shadow: 0 6px 12px -2px rgba(#f27813,.15);
+    background-color: yellow;
+}
+#c {
+    box-shadow: 0 6px 12px -2px rgba(#f27813,.15);
+    background-color: yellow;
+}
+#d {
+    box-shadow: 0 6px 12px -2px rgba(#f27813,.15);
+    background-color: yellow;
+}*/
